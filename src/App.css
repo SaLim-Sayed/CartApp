@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: #d4deef;
+  min-height: 100vh;
+}
+.itemImg{
+  height: 75px;
+  width: 75px;
+  border: 2px solid #fff;
+  border-radius: 50%;
 }
 
 .App-logo {
@@ -7,6 +15,9 @@
   pointer-events: none;
 }
 
+.TD:hover{
+  background-color: #14181a !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
